@@ -1,0 +1,19 @@
+{
+  "name": "highlightjs-robots-txt",
+  "version": "0.0.1",
+  "description": "highlight.js syntax definition for Alan programming language",
+  "main": "src/alan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alantech/highlightjs-alan.git"
+  },
+  "keywords": [
+    "alan.ln",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ]
+}
