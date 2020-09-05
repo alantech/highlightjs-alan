@@ -8,7 +8,7 @@ Category: common
 module.exports = function (hljs) {
   var KEYWORDS = {
     title:
-      'export, as, from, import',
+      'export as from import',
     keyword:
       'type event fn on return const let emit prefix infix precedence if else new interface',
   };
