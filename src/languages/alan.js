@@ -11,6 +11,8 @@ module.exports = function (hljs) {
       'export as from import',
     keyword:
       'type event fn on return const let emit prefix infix precedence if else new interface',
+    meta:
+      'true false'
   };
   var OPERATORS = {
     className: 'literal',
