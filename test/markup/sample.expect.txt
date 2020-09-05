@@ -1,14 +1,9 @@
-<span class="hljs-section">User-agent</span>: <span class="hljs-string">*</span>
-<span class="hljs-built_in">Disallow</span>: <span class="hljs-string">/search</span>
-<span class="hljs-built_in">Allow</span>: <span class="hljs-string">/search/about</span>
+<span class="hljs-title">import</span> <span class="hljs-literal">@</span>std<span class="hljs-literal">/</span>app
 
-<span class="hljs-comment"># AdsBot</span>
-<span class="hljs-section">User-agent</span>: <span class="hljs-string">AdsBot-Google</span>
-<span class="hljs-built_in">Disallow</span>: <span class="hljs-string">/maps/api/js/</span>
-<span class="hljs-built_in">Allow</span>: <span class="hljs-string">/maps/api/js</span>
-
-<span class="hljs-comment"># Just another comment</span>
-<span class="hljs-section">User-agent</span>: <span class="hljs-string">Twitterbot</span>
-<span class="hljs-built_in">Allow</span>: <span class="hljs-string">/imgres</span>
-
-<span class="hljs-keyword">Sitemap</span>: <span class="hljs-string">https://www.google.com/sitemap.xml</span>
+<span class="hljs-comment">// start event</span>
+<span class="hljs-keyword">on</span> app<span class="hljs-literal">.</span>start <span class="hljs-literal">{</span>
+  <span class="hljs-keyword">const</span> statusCode <span class="hljs-literal">=</span> <span class="hljs-meta">0</span>
+  app<span class="hljs-literal">.</span>print<span class="hljs-literal">(</span><span class="hljs-meta">&quot;Hello, World!&quot;</span><span class="hljs-literal">)</span>
+  <span class="hljs-comment">/* exit event */</span>
+  <span class="hljs-keyword">emit</span> app<span class="hljs-literal">.</span>exit statusCode
+<span class="hljs-literal">}</span>

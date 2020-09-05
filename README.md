@@ -16,3 +16,8 @@ Simply load the module after loading Highlight.js.  You'll use the minified vers
   hljs.initHighlightingOnLoad();
 </script>
 ```
+
+## Development
+
+https://highlightjs.readthedocs.io/en/latest/language-contribution.html
+https://github.com/highlightjs/highlight.js/blob/master/extra/3RD_PARTY_QUICK_START.md
