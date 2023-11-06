@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "author": "Luis De Pombo <luis@alantechnologies.com>",
   "description": "highlight.js syntax definition for Alan programming language",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "main": "src/languages/alan.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
